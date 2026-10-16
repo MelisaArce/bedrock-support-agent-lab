@@ -1,0 +1,24 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+.terraform/
+crash.log
+crash.*.log
+
+# Variables locales y secretos
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+
+# Credenciales AWS
+.aws/
+credentials
+
+# Archivos locales de Terraform
+*.tfstate.backup
+*.backup
+
